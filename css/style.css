@@ -74,11 +74,23 @@ header{
     color: black;
 }
 
+.banner{
+    width:100%;
+    background-color: #F5F4F2;
+}
+
+.banner img{
+    padding-top: 50px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
 /*SOBRE A B2W*/
 
 .cor-b2w{
     color: #27ECD4;
-    font-size: 50px;
 }
 
 #b2w{
@@ -112,6 +124,11 @@ header{
     padding-bottom: 50px;
 }
 
+.img-b2w img{
+    width: 570px;
+
+}
+
 .txt2-b2w{
     width: 70%;
     margin-left: 15%;
@@ -133,25 +150,24 @@ header{
 .coisinha{
     width: 25%;
     margin-left: 10%;
-    padding-top: 100px;
+    padding-top: 50px;
     height: 300px;
     float: left;
 }
 
 .coisinha h3{
     font-weight: 900;
-    font-size: 20px;
-    padding: 20px;
-    color: #55189A;
+    font-size: 26px;
+    color: #FF7851;
 }
 
 .coisinha-linha1 h3{
-    padding-top: 35px;
+    padding-top: 60px;
     float: left;
 }
 
 .coisinha-linha1 img{
-    width: 100px;
+    width: 130px;
 }
 
 .coisinha-linha2 h3{
@@ -200,7 +216,7 @@ header{
 /*VALKS*/
 
 #valks{
-    height: 1800px;
+    height: 1700px;
 }
 
 .img-valks{
@@ -211,6 +227,10 @@ header{
     margin-left: 10%;
     margin-right: 2%;
     padding-bottom: 50px;
+}
+
+.img-valks img{
+    width: 600px;
 }
 
 .txt-valks{
@@ -230,13 +250,13 @@ header{
     display: flex;
 }
 
-.agilidade, .praticidade, .nomezinho{
+.agilidade, .praticidade, .incentivador{
     float: left;
     width: 33.3%;
     padding-top: 20px;
 }
 
-.agilidade img, .praticidade img, .nomezinho img{
+.agilidade img, .praticidade img, .incentivador img{
     height: 150px;
     margin-top: 20px;
     display: flex;
@@ -244,7 +264,13 @@ header{
     margin-right: auto;
 }
 
-.agilidade h3, .praticidade h3, .nomezinho h3{
+.incentivador img{
+    height: 120px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.agilidade h3, .praticidade h3, .incentivador h3{
     text-align: center;
     font-size: 20px;
     font-weight: 900;
@@ -270,10 +296,13 @@ header{
 }
 
 .info1 h4, .info2 h4{
-    padding-top: 80px;
     text-align: center;
     font-size: 26px;
     font-weight: 900;
+}
+
+.info1 h4{
+    padding-top: 80px;
 }
 
 .info1 p, .info2 p{
@@ -283,9 +312,9 @@ header{
 }
 
 .img-info1, .img-info2{    
-    height: 250px;
+    height: 350px;
     width: 350px;
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     margin-left: auto;
     margin-right: auto;   
