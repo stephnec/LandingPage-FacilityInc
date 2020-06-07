@@ -7,14 +7,17 @@
     <title>Facility Inc</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo2.png" />
 </head>
 
 <body>
     <header>
         <nav id="menu">
-            <img src="img/logo.png" alt="">
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo">
+            </div>
             <ul>
-                <li><span class="cor-b2w"></span><a href="#b2w">B2W</a></span></li>
+                <li><a href="#b2w">B2W</a></li>
                 <li><a href="#proposito">Motivação</a></li>
                 <li><a href="#valks">Valks</a></li>
                 <li><a href="#time">Time</a></li>
@@ -85,10 +88,10 @@
             </div>
             <div class="txt-valks">
                 <p>
-                    A Valks surgiu com a necessidade de sanar esse problema! Valks é uma plataforma em que os novos
+                    A Valks é a solução para seu problema! Valks é uma plataforma em que os novos
                     funcionários terão acesso a conteúdos explicativos como manuais, vídeos, tutoriais, etc. Além disso,
-                    um case será apresentado para esse novo funcionário de forma com que ele aprenda na pratica e com
-                    maior eficaz, afinal é na pratica que se aprende!
+                    um case será apresentado para esse novo funcionário de forma com que ele desenvolva na prática
+                    e com maior eficiência, afinal é na aplicação real dos estudos que se aprende!
                 </p>
             </div>
             <div class="valores">
@@ -129,17 +132,17 @@
         <section id="time">
             <h2>Time</h2>
             <div class="linha">
-                <div class="membro-L1">
+                <div class="membro-L1 andre">
                     <img src="img/andre.png" alt="André">
                     <h3>André</h3>
                     <p>Analista de Sistema</p>
                 </div>
-                <div class="membro-L1">
+                <div class="membro-L1 karlos">
                     <img src="img/karlos.png" alt="Karlos">
                     <h3>Karlos</h3>
                     <p>Designer Gráfico</p>
                 </div>
-                <div class="membro-L1">
+                <div class="membro-L1 luca">
                     <img src="img/luca.png" alt="Luca">
                     <h3>Luca</h3>
                     <p>Back-End Developer</p>
@@ -147,12 +150,12 @@
             </div>
             <div class="linha">
 
-                <div class="membro-L2">
+                <div class="membro-L2 stephane">
                     <img src="img/stephane.png" alt="Stephane">
                     <h3>Stephane</h3>
                     <p>Full Stack Developer</p>
                 </div>
-                <div class="membro-L2">
+                <div class="membro-L2 vitoria">
                     <img src="img/vitoria.png" alt="Vitoria">
                     <h3>Vitoria</h3>
                     <p>Back-End Developer</p>
@@ -163,7 +166,7 @@
         <section id="contato">
             <h2>Contato</h2>
             <section id="formulario">
-                <form class="enviar" action="enviar" method="post">
+                <form class="enviar" action="enviar" method="get">
                     <div class="linha">
                         <div id="campoNome" class="campo">
                             <label for="nome">Nome:</label>
@@ -171,8 +174,8 @@
                         </div>
 
                         <div id="campoTelefone" class="campo">
-                            <label for="telefone">Sobrenome:</label>
-                            <input id="telefone" type="text" name="sobrenome" class="telefone">
+                            <label for="telefone">Telefone:</label>
+                            <input id="telefone" type="tel" name="sobrenome" class="telefone">
                         </div>
                     </div>
 
@@ -202,6 +205,7 @@
     </main>
     <footer>
         <img src="img/logo.png" alt="Logo">
+        <p>incfacility@gmail.com</p>
     </footer>
 </body>
 

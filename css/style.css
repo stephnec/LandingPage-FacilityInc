@@ -6,12 +6,12 @@ Verde água- #27ECD4
 Laranja mais fraco- #FF7851
 
 #D7C2EF
-#55189A
+>#55189A
 
 #240B41
 
 #4654A3
-#270949
+>#270949
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
@@ -71,7 +71,8 @@ header{
 }
 
 #menu a:hover {
-    color: black;
+    color: #270949;
+    transition: 0.5s;
 }
 
 .banner{
@@ -157,7 +158,7 @@ header{
 
 .coisinha h3{
     font-weight: 900;
-    font-size: 26px;
+    font-size: 24px;
     color: #FF7851;
 }
 
@@ -192,15 +193,15 @@ header{
 
 .grafico-employee{
     width: 80%;
-    height: 500px;
+    height: auto;
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 200px;
+    margin-top: 400px;
 }
 
 .grafico-employee img{
-    height: 400px;
-    width: 1100px;
+    height: auto;
+    width: 800px;
     margin-top: 50px;
     display: flex;
     margin-left: auto;
@@ -221,7 +222,7 @@ header{
 
 .img-valks{
     float: left;
-    padding-top: 100px;
+    padding-top: 50px;
     width: 38%;
     height: 500px;
     margin-left: 10%;
@@ -230,14 +231,14 @@ header{
 }
 
 .img-valks img{
-    width: 600px;
+    width: 570px;
 }
 
 .txt-valks{
     width: 40%;
     margin-right: 10%;
     float: left;
-    padding-top: 180px;
+    padding-top: 150px;
 }
 
 .txt-valks p{
@@ -285,7 +286,7 @@ header{
 .info1, .info2{
     height: 700px;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
     float: left;
     width: 34%;
     background-color: #F5F4F2;
@@ -328,21 +329,21 @@ header{
 /*TIME*/
 
 #time{
-    height: 1200px;
+    height: 1150px;
 }
 
 .membro-L1, .membro-L2{
     margin-top: 100px;
-    width: 26.6%;
+    width: 20%;
     float: left;
     background-color:  #55189A;
-    border-radius: 5px;
-    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.5);
     color: #F5F4F2;
 }
 
 .membro-L1{
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 .membro-L1 img, .membro-L2 img{   
@@ -369,7 +370,7 @@ header{
 }
 
 .membro-L2{
-    margin-left: 15.6%;
+    margin-left: 20%;
 }
 
 /*CONTATO*/
@@ -378,7 +379,6 @@ form{
     height: auto;
     margin: 0 auto;
     border-radius: 10px;
-    padding-top: 50px;
 }
 
 .campo{
@@ -460,3 +460,433 @@ footer img{
     margin-left: auto;
     margin-right: auto; 
 }
+
+footer p{
+    color: #FF7851;
+    font-weight: 700;
+    padding-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*REPONSIVIDADE*/
+@media screen and (max-width:1100px){
+    #menu{
+        padding-bottom: 10px;
+        height: 150px;
+    }
+
+    #menu img{
+    width: 200px;
+    float: left;
+    margin-left: 40%;
+    }
+
+    .logo{
+        width: 100%;
+        height: 120px;
+    }
+    #menu ul{
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    #menu ul li a{
+        padding-left: 20px;
+        padding-right: 20px;
+        text-decoration: none;
+        color: #F05B18;
+        font-weight: bold;
+    }
+    
+    .banner img{
+        padding-top: 150px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto; 
+        width: 100%;
+    }
+
+
+
+
+
+    .txt1-b2w{
+        margin-left: 5%;
+        padding-top: 150px;
+    }
+
+    .img-b2w{
+        width: 43%;
+        height: 500px;
+        margin-left: 2%;
+        padding-bottom: 0px;
+    }
+
+    .img-b2w img{
+        width: 100%;
+    }
+
+    .coisinha{
+        padding-top: 150px;
+    }
+    
+    .coisinha h3{
+        font-size: 20px;
+    }
+    
+    .coisinha-linha1 h3{
+        padding-top: 35px;
+        float: left;
+    }
+    
+    .coisinha-linha1 img{
+        width: 85px;
+    }
+    
+    .coisinha-linha2 h3{
+        padding-top: 20px;
+    }
+    
+    .coisinha-linha2 img{
+        float: left;
+        width: 60px;
+    }
+    
+    
+    
+    .grafico-employee{
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 200px;
+    }
+    
+    .grafico-employee img{
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    
+    #valks{
+        height: 2600px;
+    }
+    
+    .img-valks{
+        width: 43%;
+        margin-left: 5%;
+        margin-right: 2%;
+        height: 450px;
+        padding-bottom: 0px;
+    }
+    
+    .img-valks img{
+        width: 100%;
+    }
+    
+    .txt-valks{
+        width: 45%;
+        margin-right: 0%;
+        padding-top: 100px;
+    }
+    
+    .valores{
+        width:100%;
+        padding-bottom: 150px;
+    }
+    
+    .info1, .info2{
+        width: 80%;
+        margin-bottom: 120px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
+    #time{
+        height: 1600px;
+    }
+
+    .membro-L1, .membro-L2{
+        width: 35%;
+        margin-left: 10%;
+    }
+
+    .luca{
+        margin-left: 32.5%;
+        margin-right: 32.5%;
+    }
+
+    form{
+        width: 90%;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:800px){
+    #b2w{
+        height: 1400px;
+    }
+
+    .txt1-b2w{
+        height: auto;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .txt1-b2w h2, .txt1-b2w p{
+        text-align: center;
+    }
+
+    .img-b2w{
+        width: 70%;
+        margin-left: 15%;
+        padding-top: 50px;
+        margin-bottom: 80px;
+    }
+
+    #proposito{
+        height: 1350px;
+    }
+
+    .coisinha{
+        width: 50%;
+        margin-left: 32.5%;
+        height: 200px;
+        padding-top: 30px;
+    }
+
+    .coisinha h3{
+        font-size: 24px;
+    }
+
+    .coisinha-linha1 h3{
+        padding-top: 60px;
+    }
+
+    .coisinha-linha1 img{
+        width: 150px;
+    }
+
+    .coisinha-linha2 h3{
+        padding-top: 35px;
+        padding-left: 30px;
+    }
+    
+    .coisinha-linha2 img{
+        width: 100px;
+    }
+
+    .txt-proposito{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .txt-proposito p{
+        padding-top: 100px;
+    }
+
+    .grafico-employee{
+        margin-top: 400px;
+    }
+
+    .img-valks{
+        width: 70%;
+        margin-left: 15%;
+        padding-top: 50px;
+    }
+
+    .txt-valks{
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .txt-valks p{
+        text-align: center;
+    }
+
+    #time{
+        height: 1850px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:650px){
+    #menu img{
+    margin-left: 35%;
+    }
+
+    .txt2-b2w{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #proposito{
+        height: 1200px;
+    }
+
+    .coisinha{
+        width: 70%;
+        margin-left: 25%;
+        height: 200px;
+        padding-top: 30px;
+    }
+
+    .grafico-employee p{
+        text-align: center;
+        width: 100%;
+        margin: 0%;
+    }
+
+
+
+    #time{
+        height: 2750px;
+    }
+
+    .membro-L1, .membro-L2{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .txt-valks{
+        padding-top: 0px;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    #menu{
+        height: 320px;
+        position: absolute;
+    }
+    #menu img{
+        margin-left: 20%;
+        width: 300px;
+    }
+    .logo{
+        width: 100%;
+        height: 120px;
+        position: fixed;
+        background-color: #F5F4F2;;
+    }
+    #menu ul{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        text-align: center;
+        line-height: 40px;
+        justify-content: flex-start;
+        padding-top: 115px;
+    }
+
+    #menu ul li{
+        width: 100%;
+    }
+
+    #menu ul li a{
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    #menu ul li:hover {
+        color: #F05B18;
+        background-color: #270949;;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .banner img{
+    padding-top: 300px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
+    }
+
+    #b2w{
+        height: 1300px;
+    }
+
+    .img-b2w{
+        height: 350px;
+    }
+
+    #campoNome, #campoTelefone{width: 100%;}
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
